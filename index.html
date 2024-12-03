@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Ember Estate
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #333;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .services {
+            background-color: #444;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .service-item {
+            background-color: #555;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        .service-item h3 {
+            color: #b22222; /* Maroon color */
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        .contact-form {
+            background-color: #222;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            width: 300px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #b22222; /* Maroon color */
+            color: #fff;
+            cursor: pointer;
+            width: 320px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #a11d1d;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;">
+        <img src="images1/ember stone 1.png" alt="Ember Stone Logo" style="height: 60px;">
+        <h1 style="flex-grow: 1; text-align: center; margin:0;">     Wholesaling Real Estate</h1>
+        <h4> Ember Estate LLC</h4>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <h1>Wholesale Real Estate Deals</h1>
+        <p>Connecting investors with great properties at amazing all cash prices.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Property Acquisition</h3>
+            <p>We find and secure properties below market value for real estate investors.</p>
+        </div>
+        <div class="service-item">
+            <h3>Property Evaluation</h3>
+            <p>Comprehensive property analysis to determine true market value and potential ROI.</p>
+        </div>
+        <div class="service-item">
+            <h3>Investor Matching</h3>
+            <p>We connect motivated sellers with serious real estate investors ready to close deals fast.</p>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wholesaling Real Estate. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
